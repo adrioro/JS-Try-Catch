@@ -6,7 +6,8 @@ try {
     alert(e);
 }
 
-//------------------
+// After that it's going to run the following:
+
 
 var Name = prompt("Enter your name:");
 
@@ -19,6 +20,8 @@ try {
     } else {
         throw "5 letter name";
     }
-} catch (e); {
+} catch (e) {
     alert(e);
 }
+
+//If there were a mistake in the try, it'll rund the alert error.
